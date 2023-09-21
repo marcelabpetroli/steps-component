@@ -77,15 +77,21 @@ h3 {
 
 .close {
   position: absolute;
-  top: 16px;
-  right: 16px;
-  border: none;
+  top: 30px;
+  right: 30px;
+  border: 1px solid transparent;
+  border-radius: 5px;
   background: none;
   cursor: pointer;
   font-size: 40px;
-  color: inherit;
+  color: #fff;
+  padding: 15px 20px;
+  background: #7950f2;
+  transition: all 0.2s;
 }
 
 .close:hover {
   color: #7950f2;
+  background: #fff;
+  border: 1px solid #7950f2;
 }
